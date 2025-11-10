@@ -1,0 +1,158 @@
+/*responsividade*/        
+    @media(max-width:1200px){
+        header h1{
+            font-size: 28px;
+        }
+        
+        main{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .main-content{
+            width: 100%;
+            align-items: center;
+            margin-bottom: 15%;
+        }
+        
+        .main-content .text, .projetos{
+            text-align: center;
+        }
+        .main-content .text, p{
+            width: 100%;
+            font-size: 12px;
+        }
+        .main-content .text p, .projetos .card{
+            margin-top: 32px;
+        }
+        /*imagem*/
+        .box1, .video {
+        display: flex;    
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+     }
+     .video-item, .boximg {
+        width: 45%;
+    }
+
+    .ajusteimg img, .videobox {
+        width: 100%;
+        height: auto;
+    }
+
+    .textodescri h1 {
+        font-size: 20px;
+    }
+    .banner h2 {
+    font-size: 1.8em;
+}
+
+  .box1 {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .boximg {
+    width: 45%;
+  }
+  /*video*/
+  .banner h2 {
+    font-size: 1.8em;
+  }
+
+  .video {
+    padding: 15px;
+  }
+
+  .video-item {
+    max-width: 90%;
+  }
+}
+
+
+
+     @media (max-width: 700px){
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        header h1{
+            font-size: 2em;
+        }
+        header nav{
+            margin-top: 24px;
+        }
+        header nav a{
+            font-size: 16px;
+        }
+        main .main-content .projetos .card{
+            width: 60px;
+            height: 60px;
+        }
+        main .main-content h2{
+            font-size: 1.8em;
+        }
+        main figure img {
+            width: 250px;
+            height: 250px;
+        }
+        /*imagem*/
+        .banner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner h2 {
+    font-size: 1.4em;
+    margin-top: 10px;
+  }
+
+  .banner i {
+    font-size: 1.2em;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+  }
+
+  .boximg {
+    width: 90%;
+  }
+
+  .textodescri h1 {
+    font-size: 0.95em;
+  }
+  /*video*/
+  .banner {
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner h2 {
+    font-size: 1.4em;
+    margin-top: 10px;
+  }
+
+  .banner i {
+    font-size: 1.2em;
+  }
+
+  .titulo {
+    font-size: 1.5em;
+  }
+
+  .textodescri h1 {
+    font-size: 0.95em;
+  }
+    }
